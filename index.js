@@ -1,3 +1,5 @@
+const Promise = require('bluebird')
+
 /**
  * @param {Object}              [query={}]
  * @param {Object}              [options={}]
@@ -70,7 +72,7 @@ function paginate(query, options, callback) {
         }
     }
 
-    return Promise.all(promises)
+    return Promise.props(promises)
         .then(function(data) {
             var result = {
                 docs:  data.docs,
