@@ -1,31 +1,17 @@
 {
   "name": "mongoose-paginate-plus",
-  "description": "Folk mongoose-paginate Pagination plugin for Mongoose upgrade for mongodb 4.0 +",
-  "version": "5.0.2",
-  "author": {
-    "name": "levy193"
-  },
+  "description": "Folk mongoose-paginate Pagination plugin for Mongoose upgrade for mongo 4.0+",
+  "version": "1.0.0",
+  "author": "levy193",
   "contributors": [
-    {
-      "name": "Edward Hotchkiss",
-      "email": "edward@edwardhotchkiss.com"
-    },
-    {
-      "name": "Nick Baugh",
-      "email": "niftylettuce@gmail.com"
-    },
-    {
-      "name": "Dmitry Kirilyuk",
-      "email": "gk.joker@gmail.com"
-    },
-    {
-      "name": "levy193",
-      "email": "quangdong.luu@gmail.com"
-    }
+    "Edward Hotchkiss <edward@edwardhotchkiss.com>",
+    "Nick Baugh <niftylettuce@gmail.com>",
+    "Dmitry Kirilyuk <gk.joker@gmail.com>",
+    "levy193 <quangdong.luu@gmail.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/levy1s93/mongoose-paginate-plus.git"
+    "url": "git+https://github.com/levy1s93/mongoose-paginate-plus.git"
   },
   "license": "MIT",
   "keywords": [
@@ -45,6 +31,14 @@
     "mongoose": "5.9.25"
   },
   "scripts": {
-    "test": "./node_modules/.bin/mocha tests/*.js -R spec --ui bdd --timeout 5000"
+    "test": "mocha tests/*.js -R spec --ui bdd --timeout 5000"
+  },
+  "bugs": {
+    "url": "https://github.com/levy1s93/mongoose-paginate-plus/issues"
+  },
+  "homepage": "https://github.com/levy1s93/mongoose-paginate-plus#readme",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
   }
 }
