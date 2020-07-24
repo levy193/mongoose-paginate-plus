@@ -3,7 +3,7 @@
 
 > Pagination plugin for [Mongoose](http://mongoosejs.com) (Support mongo >= 4.0)
 
-[![NPM version](https://img.shields.io/npm/v/mongoose-paginate-plus.svg)](https://npmjs.org/package/mongoose-paginate)
+[![NPM version](https://img.shields.io/npm/v/mongoose-paginate-plus.svg)](https://npmjs.org/package/mongoose-paginate-plus)
 
 **Note:** This plugin will only work with Node.js >= 4.2 and Mongoose >= 4.2
 =======
