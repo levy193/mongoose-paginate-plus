@@ -1,0 +1,50 @@
+{
+  "name": "mongoose-paginate-plus",
+  "description": "Folk mongoose-paginate Pagination plugin for Mongoose upgrade for mongodb 4.0 +",
+  "version": "5.0.2",
+  "author": {
+    "name": "levy193"
+  },
+  "contributors": [
+    {
+      "name": "Edward Hotchkiss",
+      "email": "edward@edwardhotchkiss.com"
+    },
+    {
+      "name": "Nick Baugh",
+      "email": "niftylettuce@gmail.com"
+    },
+    {
+      "name": "Dmitry Kirilyuk",
+      "email": "gk.joker@gmail.com"
+    },
+    {
+      "name": "levy193",
+      "email": "quangdong.luu@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/levy1s93/mongoose-paginate-plus.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "mongoose",
+    "paginate",
+    "pagination",
+    "paging",
+    "page"
+  ],
+  "engines": {
+    "node": ">=4.2.4"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "3.4.1",
+    "mocha": "2.3.4",
+    "mongoose": "4.3.4"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha tests/*.js -R spec --ui bdd --timeout 5000"
+  }
+}
