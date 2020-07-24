@@ -70,7 +70,7 @@ function paginate(query, options, callback) {
         }
     }
 
-    return Promise.props(promises)
+    return Promise.all(promises)
         .then(function(data) {
             var result = {
                 docs:  data.docs,
