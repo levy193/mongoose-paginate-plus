@@ -1,7 +1,7 @@
 {
   "name": "mongoose-paginate-plus",
   "description": "Folk mongoose-paginate Pagination plugin for Mongoose upgrade for mongo 4.0+",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "levy193",
   "contributors": [
     "Edward Hotchkiss <edward@edwardhotchkiss.com>",
