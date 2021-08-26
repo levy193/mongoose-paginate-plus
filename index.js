@@ -11,6 +11,7 @@ const Promise = require('bluebird')
  * @param {Number}                [options.offset=0] - Use offset or page to set skip position
  * @param {Number}                [options.page=1]
  * @param {Number}                [options.limit=10]
+ * @param {Object}                [options.setOptions={}]
  * @param {Function}            [callback]
  *
  * @returns {Promise}
@@ -24,6 +25,7 @@ function paginate(query, options, callback) {
     var populate   = options.populate;
     var lean       = options.lean || false;
     var leanWithId = options.hasOwnProperty('leanWithId') ? options.leanWithId : true;
+    var setOptions = options.setOptions ? options.setOptions : {}
 
     var limit = options.hasOwnProperty('limit') ? options.limit : 10;
     var skip, offset, page;
@@ -51,6 +53,7 @@ function paginate(query, options, callback) {
                         .sort(sort)
                         .skip(skip)
                         .limit(limit)
+                        .setOptions(setOptions)
                         .lean(lean);
 
         if (populate) {
