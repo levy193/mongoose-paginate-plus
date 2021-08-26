@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/levy1s93/mongoose-paginate-plus.git"
+    "url": "git+https://github.com/levy193/mongoose-paginate-plus.git"
   },
   "license": "MIT",
   "keywords": [
@@ -36,9 +36,9 @@
     "test": "mocha tests/*.js -R spec --ui bdd --timeout 5000"
   },
   "bugs": {
-    "url": "https://github.com/levy1s93/mongoose-paginate-plus/issues"
+    "url": "https://github.com/levy193/mongoose-paginate-plus/issues"
   },
-  "homepage": "https://github.com/levy1s93/mongoose-paginate-plus#readme",
+  "homepage": "https://github.com/levy193/mongoose-paginate-plus#readme",
   "main": "index.js",
   "directories": {
     "test": "tests"
